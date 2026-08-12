@@ -13,6 +13,6 @@ To properly represent this, instead of treating interagency agreements as full t
 - **Payments:** Where does the money come from?
 - **Enforcement:** Who manages statutory compliance?
 - **Outreach:** Who does the public communicate with?
-- 
+
 The listed scopes of the interagency agreements are derived from ED’s Returning Education to the States portal available at: https://www.ed.gov/about/initiatives/returning-education-states
 Clicking on a populated cell on the chart gives you an excerpt of the relevant IAA, assigning responsibility to a specific agency. If a cell is marked as NOT ADDRESSED a given responsibility is not directly mentioned or assigned within an agreement. 
