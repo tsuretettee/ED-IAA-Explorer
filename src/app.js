@@ -165,7 +165,7 @@ const App = {
           a given responsibility is not directly mentioned or assigned within an agreement.
         </p>
         <p>
-          This tool was created by Caen Jones and licensed under Creative Commons Zero v1.0 Universal.
+          This tool was created by Caen Jones and is licensed under Creative Commons Zero v1.0 Universal.
       </div>
     </sheet-dialog>
 
