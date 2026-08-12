@@ -17,3 +17,5 @@ To properly represent this, instead of treating interagency agreements as full t
 The listed scopes of the interagency agreements are derived from ED’s Returning Education to the States portal available at: https://www.ed.gov/about/initiatives/returning-education-states
 
 Clicking on a populated cell on the chart gives you an excerpt of the relevant IAA, assigning responsibility to a specific agency. If a cell is marked as NOT ADDRESSED a given responsibility is not directly mentioned or assigned within an agreement. 
+
+This tool was created by Caen Jones and licensed under Creative Commons Zero v1.0 Universal. 
