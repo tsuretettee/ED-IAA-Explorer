@@ -164,6 +164,8 @@ const App = {
           assigning responsibility to a specific agency. If a cell is marked as NOT ADDRESSED
           a given responsibility is not directly mentioned or assigned within an agreement.
         </p>
+        <p>
+          This tool was created by Caen Jones and licensed under Creative Commons Zero v1.0 Universal.
       </div>
     </sheet-dialog>
 
