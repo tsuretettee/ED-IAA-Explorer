@@ -122,7 +122,7 @@ const App = {
         <p class="kicker">Interagency Agreement Tracker</p>
         <h3>About</h3>
         <p class="lead">
-          Welcome to the Department of Education Interagency Agreement Tracker! This tool is
+          Welcome to the Department of Education interagency agreement explorer! This tool is
           designed to provide the public with a nuanced view of how ED will be attempting to
           shift responsibilities to different departments as part of a larger effort to
           dismantle the education agency.
