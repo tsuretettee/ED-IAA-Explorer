@@ -91,7 +91,7 @@ const App = {
   },
   template: `
     <div class="wrap">
-      <h1>Department of Education interagency agreement tracker</h1>
+      <h1>Department of Education interagency agreement explorer</h1>
 
       <p v-if="error" class="status bad">{{ error }}</p>
       <p v-else-if="!rows.length" class="status">Loading…</p>
