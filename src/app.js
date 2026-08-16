@@ -97,12 +97,6 @@ const App = {
       <p v-else-if="!rows.length" class="status">Loading…</p>
 
       <template v-else>
-        <div class="key">
-          <span><i style="background:var(--solid)"></i>Held by one party</span>
-          <span><i class="split"></i>Held by two agencies</span>
-          <span><i style="background:var(--none)"></i>Not addressed</span>
-        </div>
-
         <div class="cards">
           <partnership-card
             v-for="row in rows"

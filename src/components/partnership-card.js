@@ -18,6 +18,9 @@ export const PartnershipCard = {
     who(column) {
       return this.addressed(column) ? this.cell(column).value : 'not addressed'
     },
+    chipClass(holder) {
+      return 'chip--' + holder.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+    },
     label(column) {
       const suffix = this.addressed(column) ? ', view clause' : ''
       return `${column} — ${this.who(column)}${suffix}`
@@ -30,19 +33,23 @@ export const PartnershipCard = {
         <li v-for="column in columns" :key="column">
           <button
             class="fn"
+            :class="{ shared: shared(column) }"
             :disabled="!addressed(column)"
             :aria-label="label(column)"
             @click="$emit('open', { row, column })"
           >
-            <span class="bar" aria-hidden="true">
-              <b v-if="!addressed(column)" class="none"></b>
-              <template v-else>
-                <b class="a"></b>
-                <b v-if="shared(column)" class="b"></b>
-              </template>
-            </span>
             <span class="nm">{{ column }}</span>
-            <span class="who">{{ who(column) }}</span>
+            <span class="who">
+              <span v-if="addressed(column)" class="chips" :class="{ split: shared(column) }">
+                <span
+                  v-for="holder in cell(column).holders"
+                  :key="holder"
+                  class="chip"
+                  :class="chipClass(holder)"
+                >{{ holder }}</span>
+              </span>
+              <span v-else class="none-label">not addressed</span>
+            </span>
           </button>
         </li>
       </ul>

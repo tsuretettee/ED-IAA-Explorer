@@ -12,7 +12,7 @@ const ENTRY = path.join(SRC, 'app.js')
 const INDEX = path.join(ROOT, 'index.html')
 const STYLES = path.join(SRC, 'app.css')
 const VUE = path.join(ROOT, 'vendor', 'vue.global.prod.js')
-const OUT = path.join(ROOT, 'dist', 'iaa-explorer.html')
+const OUT = path.join(ROOT, 'iaa-explorer.html')
 
 const CSV = {
   chart: path.join(ROOT, 'data', 'ED_IAA_chart_data - CHART.csv'),
