@@ -113,7 +113,6 @@ const App = {
 
     <sheet-dialog :open="aboutOpen" label="About" accent @close="closeAbout">
       <div class="about">
-        <p class="kicker">Interagency Agreement Tracker</p>
         <h3>About</h3>
         <p class="lead">
           Welcome to the Department of Education interagency agreement explorer! This tool is
