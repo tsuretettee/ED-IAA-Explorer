@@ -106,7 +106,7 @@ function main() {
   try {
     chart = buildChart(sources.chart, sources.justification)
   } catch (err) {
-    if (err instanceof ChartError) fail(`the spreadsheet exports don't line up —\n  ${err.message}`)
+    if (err instanceof ChartError) fail(`the spreadsheet exports don't line up:\n  ${err.message}`)
     throw err
   }
 
