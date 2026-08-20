@@ -59,10 +59,9 @@ const App = {
       } catch (err) {
         this.error =
           err instanceof ChartError
-            ? `The spreadsheet exports in data/ don't line up — ${err.message}`
+            ? `The spreadsheet exports in data/ don't line up ${err.message}`
             : `Could not read the spreadsheet exports from data/ (${err.message}). ` +
-              `Serve this page over http rather than opening it from disk ` +
-              `— or use the built dist/iaa-explorer.html.`
+              `Serve this page over http rather than opening it from disk `
       }
     },
     async fetchSources() {
